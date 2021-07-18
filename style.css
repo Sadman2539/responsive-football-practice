@@ -9,4 +9,39 @@ body{
 header{
     height: 677px;
     background-color: #2D25A0;
+
 }
+header h1{
+    color: white;
+    font-size: 4rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    margin-right: 36px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 24px;
+    background: #E02C6D;
+}
+
+/* header style  */
+#welcome-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome-text{
+    width: 100%;
+}
+
